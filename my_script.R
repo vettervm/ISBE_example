@@ -13,3 +13,5 @@ new = data.frame(xdata = seq(min(mydata$xdata),max(mydata$xdata),len=200))
 lines(new$xdata,predict(fit,newdata=new))
 
 write.csv(c(1, 2, 3), "test.csv")
+
+#testtesttest
